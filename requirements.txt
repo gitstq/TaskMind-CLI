@@ -1,0 +1,13 @@
+# TaskMind - 轻量级AI智能任务管理与时间规划引擎
+# 零依赖设计 - 纯Python标准库实现
+# 以下依赖为可选，用于增强TUI显示效果
+
+# 可选依赖 - 用于美化终端输出
+rich>=13.0.0; extra == "tui"
+
+# 开发依赖
+pytest>=7.0.0; extra == "dev"
+pytest-cov>=4.0.0; extra == "dev"
+black>=23.0.0; extra == "dev"
+flake8>=6.0.0; extra == "dev"
+mypy>=1.0.0; extra == "dev"
